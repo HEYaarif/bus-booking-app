@@ -349,6 +349,15 @@ This collection includes all endpoints pre-configured with sample request bodies
 - Ensure MongoDB is running and available at the hostname you configured (e.g., `mongo`).
 
 ---
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/HEYaarif/bus-booking-app.git
+cd bus-booking-api
+
+```
 
 ## Additional Notes
 
