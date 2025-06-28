@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build: .
+    container_name: bus_api
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017/busbooking
+      - PORT=3000
+      - JWT_SECRET=alex4532
+      - JWT_REFRESH_SECRET=alex45321
+    depends_on:
+      - mongo
+    restart: always
+
+volumes:
+  mongo_data:
