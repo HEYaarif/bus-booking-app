@@ -329,6 +329,16 @@ A `postman_collection.json` file is provided in this project to test all API end
 This collection includes all endpoints pre-configured with sample request bodies and authentication headers for easy testing.
 
 ---
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/HEYaarif/bus-booking-app.git
+cd bus-booking-api
+
+```
+---
 
 ## Deployment Notes
 
@@ -349,15 +359,6 @@ This collection includes all endpoints pre-configured with sample request bodies
 - Ensure MongoDB is running and available at the hostname you configured (e.g., `mongo`).
 
 ---
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/HEYaarif/bus-booking-app.git
-cd bus-booking-api
-
-```
 
 ## Additional Notes
 
